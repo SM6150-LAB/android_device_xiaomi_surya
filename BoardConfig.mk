@@ -135,6 +135,10 @@ BOARD_KERNEL_CMDLINE += androidboot.init_fatal_reboot_target=recovery
 # LMKD
 TARGET_LMKD_STATS_LOG := true
 
+# Malloc
+MALLOC_SVELTE := true
+MALLOC_SVELTE_FOR_LIBC32 := true
+
 # Media
 TARGET_USES_ION := true
 TARGET_DISABLED_UBWC := true
