@@ -33,6 +33,8 @@ blob_fixups: blob_fixups_user_type = {
         .regex_replace(r'\s+seclabel u:r:batterysecret:s0', ''),
     'vendor/etc/init/init.mi_thermald.rc': blob_fixup()
         .regex_replace(' +seclabel u:r:mi_thermald:s0\n', ''),
+    'vendor/lib64/android.hardware.camera.provider@2.4-legacy.so': blob_fixup()
+         .add_needed('libcamera_provider_shim.so'),
     'vendor/lib64/camera/components/com.qti.node.watermark.so': blob_fixup()
         .add_needed('libpiex_shim.so'),
     ('vendor/lib64/libalAILDC.so', 'vendor/lib64/libalLDC.so', 'vendor/lib64/libalhLDC.so'): blob_fixup()
