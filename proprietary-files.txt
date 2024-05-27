@@ -919,7 +919,7 @@ vendor/etc/thermald-devices.conf
 -vendor/lib64/libthermalfeature.so
 
 # Thermal - from sweet V13.0.12.0.SKFMIXM
-vendor/etc/init/init.mi_thermald.rc|434b0cc0cb28b84255e5415d66b07cc75a4e9af1
+vendor/etc/init/init.mi_thermald.rc|2b2891d3c47888c6da7266dfeec9e71b02e511a5
 
 # Time
 vendor/app/TimeService/TimeService.apk
