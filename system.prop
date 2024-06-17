@@ -1,6 +1,9 @@
 # Bluetooth
 vendor.bluetooth.soc=cherokee
 
+# Camera
+vendor.camera.aux.packagelist=com.android.camera
+
 # Dex2oat
 dalvik.vm.dex2oat64.enabled=true
 
