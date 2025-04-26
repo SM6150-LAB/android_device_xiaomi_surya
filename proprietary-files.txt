@@ -921,6 +921,12 @@ vendor/firmware/novatek_ts_huaxing_mp.bin
 vendor/firmware/novatek_ts_tianma_fw.bin
 vendor/firmware/novatek_ts_tianma_mp.bin
 
+# Touchscreen firmware (recovery)
+vendor/firmware/novatek_ts_huaxing_fw.bin:recovery/root/vendor/firmware/novatek_ts_huaxing_fw.bin
+vendor/firmware/novatek_ts_huaxing_mp.bin:recovery/root/vendor/firmware/novatek_ts_huaxing_mp.bin
+vendor/firmware/novatek_ts_tianma_fw.bin:recovery/root/vendor/firmware/novatek_ts_tianma_fw.bin
+vendor/firmware/novatek_ts_tianma_mp.bin:recovery/root/vendor/firmware/novatek_ts_tianma_mp.bin
+
 # Trusted User Interface
 vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
