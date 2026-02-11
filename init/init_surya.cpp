@@ -94,9 +94,8 @@ void vendor_load_properties() {
             model = "M2007J20CG";
     }
 
-    fingerprint = "google/sunfish/sunfish:11/RQ3A.210905.001/7511028:user/release-keys";
-    description = "sunfish-user 11 RQ3A.210905.001 7511028 release-keys";
-	
+    fingerprint = "POCO/surya_eea/surya:11/RKQ1.200826.002/V12.5.2.0.RJGEUXM:user/release-keys";
+
     set_ro_build_prop("fingerprint", fingerprint);
     set_ro_product_prop("device", device);
     set_ro_product_prop("model", model);
